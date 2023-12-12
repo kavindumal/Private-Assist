@@ -3,6 +3,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
 
 <AnchorPane fx:id="welcomePane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.privateAssist.controller.WelcomeFormController">
    <children>
@@ -16,5 +17,6 @@
             <Image url="@../img/gif/chatbot.gif" />
          </image>
       </ImageView>
+      <FontIcon iconColor="RED" iconLiteral="bi-x-circle" iconSize="30" layoutX="1875.0" layoutY="46.0" />
    </children>
 </AnchorPane>
