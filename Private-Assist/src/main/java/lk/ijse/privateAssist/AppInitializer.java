@@ -18,7 +18,7 @@ public class AppInitializer extends Application {
     public void start(Stage stage) throws Exception {
         Image cursorImage = new Image("img/icons/cursor2.png");
         Cursor customCursor = new ImageCursor(cursorImage);
-
+        System.out.println();
         Parent rootNode = FXMLLoader.load(Objects.requireNonNull(this.getClass().getResource("/view/loginForm.fxml")));
         rootNode.setCursor(customCursor);
         Scene scene = new Scene(rootNode);
