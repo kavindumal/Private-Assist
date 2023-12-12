@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.util.Objects;
 import javafx.scene.image.Image;
+import javafx.stage.StageStyle;
 
 public class AppInitializer extends Application {
     public static void main(String[] args) {
@@ -16,18 +17,16 @@ public class AppInitializer extends Application {
     }
     @Override
     public void start(Stage stage) throws Exception {
-        Image cursorImage = new Image("img/icons/cursor2.png");
-        Cursor customCursor = new ImageCursor(cursorImage);
-        System.out.println();
+//        Image cursorImage = new Image("img/icons/cursor2.png");
+//        Cursor customCursor = new ImageCursor(cursorImage);
         Parent rootNode = FXMLLoader.load(Objects.requireNonNull(this.getClass().getResource("/view/loginForm.fxml")));
-        rootNode.setCursor(customCursor);
+//        rootNode.setCursor(customCursor);
         Scene scene = new Scene(rootNode);
-        scene.setCursor(customCursor);
+//        scene.setCursor(customCursor);
         Image icon = new Image("/img/logo/logo.png");
 
-        stage.setTitle("Optimax VIsions");
+        stage.setTitle("Private Assist");
         stage.getIcons().add(icon);
-        stage.centerOnScreen();
         stage.setScene(scene);
         stage.show();
     }
