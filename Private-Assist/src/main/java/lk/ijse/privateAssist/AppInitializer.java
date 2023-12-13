@@ -22,7 +22,7 @@ public class AppInitializer extends Application {
         Scene scene = new Scene(rootNode);
 //        scene.setCursor(customCursor);
         Image icon = new Image("/img/logo/logo.png");
-        stage.initStyle(StageStyle.UNDECORATED);
+        stage.initStyle(StageStyle.DECORATED);
         stage.setTitle("Private Assist");
         stage.getIcons().add(icon);
         stage.setScene(scene);

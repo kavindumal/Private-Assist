@@ -3,20 +3,18 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import org.kordamp.ikonli.javafx.FontIcon?>
 
-<AnchorPane fx:id="welcomePane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.privateAssist.controller.WelcomeFormController">
+<AnchorPane fx:id="welcomePane" prefHeight="1050.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.privateAssist.controller.WelcomeFormController">
    <children>
-      <ImageView fitHeight="1080.0" fitWidth="1920.0" layoutX="514.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ImageView fitHeight="1050.0" fitWidth="1920.0" layoutX="514.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
             <Image url="@../img/pages/welcomePage.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="312.0" fitWidth="416.0" layoutX="744.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="932.0" fitWidth="700.0" layoutX="605.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/gif/chatbot.gif" />
+            <Image url="@../img/pages/welcomeRec.png" />
          </image>
       </ImageView>
-      <FontIcon iconColor="RED" iconLiteral="bi-x-circle" iconSize="30" layoutX="1875.0" layoutY="46.0" />
    </children>
 </AnchorPane>
